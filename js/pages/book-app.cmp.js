@@ -21,7 +21,6 @@ export default {
 
     methods: {
         changeSelected(book) {
-            console.log(book);
             this.selectedBook = book;
         },
         unSelected() {

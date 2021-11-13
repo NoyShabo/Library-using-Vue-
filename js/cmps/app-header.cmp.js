@@ -24,7 +24,6 @@ export default {
     },
     computed: {
         date() {
-            console.log(this.time.toLocaleString().split(',')[1]);
             return this.time.toLocaleString().split(',')[0];
         },
 
